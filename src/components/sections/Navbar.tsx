@@ -58,7 +58,7 @@ export function MobileNav() {
             fill="currentColor"
             strokeWidth="0"
             viewBox="0 0 512 512"
-            className="text-black dark:text-white h-6 w-6"
+            className="text-black  h-6 w-6"
             height="1em"
             width="1em"
             xmlns="http://www.w3.org/2000/svg"

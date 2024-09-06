@@ -7,7 +7,7 @@ import Image from "next/image";
 import { Logo } from "../ui/Logo";
 import { PlayIcon, PauseIcon } from "@heroicons/react/solid"; // Zakładam, że używasz HeroIcons
 
-export const Hero = () => {
+export const Hero2 = () => {
   return (
     <>
       <section
@@ -20,8 +20,8 @@ export const Hero = () => {
           <ShadowRectBackground rows={25} columns={10} />
         </div>
 
-        <div className="absolute right-0 bottom-0 h-[800px] w-[1200px] translate-x-[20%] translate-y-[50%] rounded-full bg-slate-800 opacity-50 blur-[190px]"></div>
-        <div className="absolute left-0 bottom-0 h-[800px] w-[1200px] -translate-x-[20%] translate-y-[50%] rounded-full bg-slate-700 opacity-50 blur-[320px]"></div>
+        <div className="absolute right-0 bottom-0 h-[800px] w-[1200px] translate-x-[20%] translate-y-[50%] rounded-full bg-sky-900 opacity-50 blur-[190px]"></div>
+        <div className="absolute left-0 bottom-0 h-[800px] w-[1200px] -translate-x-[20%] translate-y-[50%] rounded-full bg-sky-800 opacity-50 blur-[320px]"></div>
 
         <div className="relative min-h-screen mx-auto max-w-7xl py-[230px] flex">
           <div className="flex-[3] ">
@@ -162,11 +162,11 @@ function Team() {
       <div className="absolute top-0 left-0 w-full h-full ">
         <ShadowRectBackground rows={25} columns={12} />
       </div>
-      <div className="absolute right-0 top-0 h-[800px] w-[1200px] translate-x-[20%] translate-y-[0%] rounded-full bg-slate-900 opacity-50 blur-[190px]"></div>
+      <div className="absolute right-0 top-0 h-[800px] w-[1200px] translate-x-[20%] translate-y-[10%] rounded-full bg-sky-800 opacity-50 blur-[190px]"></div>
       <div className="absolute left-0 top-0 h-[800px] w-[1200px] -translate-x-[20%] translate-y-[10%] rounded-full bg-slate-400 opacity-50 blur-[320px]"></div>
 
-      <div className="absolute right-0 bottom-0 h-[800px] w-[1200px] translate-x-[20%] translate-y-[50%] rounded-full bg-slate-500 opacity-50 blur-[190px]"></div>
-      <div className="absolute left-0 bottom-0 h-[800px] w-[1200px] -translate-x-[20%] translate-y-[50%] rounded-full bg-slate-400 opacity-50 blur-[320px]"></div>
+      <div className="absolute right-0 bottom-0 h-[800px] w-[1200px] translate-x-[20%] translate-y-[50%] rounded-full bg-slate-400 opacity-50 blur-[190px]"></div>
+      <div className="absolute left-0 bottom-0 h-[800px] w-[1000px] -translate-x-[20%] translate-y-[50%] rounded-full bg-sky-700 opacity-50 blur-[320px]"></div>
 
       <div className="relative max-w-6xl mx-auto py-32">
         <SectionTitle title={"Zespół"} />
